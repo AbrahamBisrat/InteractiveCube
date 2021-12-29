@@ -11,47 +11,7 @@ html{
     border: 0px;
     margin: 0px;
 }
-#doggy,#missionary,#t_bone,#timeout,#done{
-    margin: 20px;
-    padding: 10px;
-    width: 100px;
-    height: 30px;
-    font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-}
-#doggy,#missionary{
-    display: inline;
-}
-#timeout,#done{
-    display: inline;
-}
-#doggy{
-    background-color: black;
-    color: white;
-    margin-left: 20px;
-}
-#missionary{
-    background-color: yellow;
-    color: red;
-    margin-left: 160px;
-}
-#t_bone{
-    background-color: green;
-    color: orange;
-    margin-left: 130px;
-    display: block;
 
-}
-#timeout{
-    background-color: skyblue;
-    color: brown;
-}
-#done{
-    background-color: black;
-    color: darkslategray;
-    margin-left: 160px;
-}
 ul{
     padding: 20px;
     display: inline-block;
@@ -61,7 +21,6 @@ li{
     display: inline;
     background-color: lightblue;
 }
-
 .main_container{
     padding: 20px;
     display: inline-flex;
