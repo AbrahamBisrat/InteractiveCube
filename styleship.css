@@ -2,6 +2,7 @@ body{
     border: 0px;
     margin: 0px;
     background-color: rgb(34, 40, 46);
+    /* opacity: 0.8; */
 }
 html{
     border: 0px;
@@ -27,34 +28,14 @@ li{
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
+    /* margin: 0px auto; */
 }
 .main_container > *{ /* All elements */
     width: 120px;
     height: 120px;
-    background-color: lightblue;
     margin: 5px; 
     border-radius: 10px; 
     box-shadow: 1px 2px 50px; 
-}
-.box_six,
-.box_eleven{
-    background-color: rgb(32, 125, 200);
-}
-.box_six:hover,
-.box_eleven:hover{
-    background-color: black;
-}
-.box_seven, .box_ten{
-    background-color:rgb(76, 155, 138);
-}
-.box_seven .mUR, .box_ten .mLL{
-    color: white;
-}
-.piece p{
-    color: cadetblue;
-    position: relative;
-    top: 25%;
-    left: 42%;
 }
 .main_container .piece:hover{
     background-color: green;
@@ -90,7 +71,7 @@ li{
     background-color: rgb(75, 81, 133);
 }
 .box_three{
-    background-color: yellow;
+    background-color: rgb(190, 190, 46);
 }
 .box_four{
     background-color: aqua;
@@ -98,17 +79,29 @@ li{
 .box_five{
     background-color: brown;
 }
+.box_six{
+    background-color: rgb(76, 125, 168);
+}
+.box_seven{
+    background-color: rgba(85, 91, 98, 0.972);
+}
 .box_eight{
     background-color: bisque;
 }
 .box_nine{
     background-color: coral;
 }
+.box_ten{
+    background-color: rgba(8, 64, 114, 0.781);
+}
+.box_eleven{
+    background-color: rgb(153, 46, 82);
+}
 .box_twelve{
-    background-color: cornflowerblue;
+    background-color: rgb(74, 76, 163);
 }
 .box_thirteen{
-    background-color: cornflowerblue;
+    background-color: rgb(37, 83, 168);
 }
 .box_fourteen{
     background-color: aquamarine;
@@ -117,6 +110,6 @@ li{
     background-color: greenyellow;
 }
 .box_sixteen{
-    background-color: violet;
+    background-color: rgb(14, 117, 74);
 }
 /* End of coloring the grid elements */
