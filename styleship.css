@@ -100,16 +100,22 @@ li{
 .main_container .piece:hover{
     background-color: green;
     position: relative;
-    animation-name: buttonAnime;
-    animation-duration: .2s;
+    animation-name: buttonMovenmentAnime;
+    animation-duration: .5s;
 }
 /* Start of Animation land */
-@keyframes buttonAnime {
+@keyframes buttonMovenmentAnime {
     0%{left: 10px;}
     25%{left: -10px}
     50%{left: 5px}
     75%{left: -5px;}
     100%{left: 0px}
+    from{background-color: red;}
+    to{background-color: yellow;}
+}
+@keyframes colorFollowerAnime {
+    from{background-color: red;}
+    to{background-color: yellow;}
 }
 /* End of Animation land */
 .main_container .piece p{
