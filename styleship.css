@@ -1,17 +1,12 @@
-/* *{
-    font-weight: bold;
-    border: 1px solid blue;
-} */
 body{
     border: 0px;
-    margin: 10px;
+    margin: 0px;
     background-color: rgb(34, 40, 46);
 }
 html{
     border: 0px;
     margin: 0px;
 }
-
 ul{
     padding: 20px;
     display: inline-block;
@@ -26,8 +21,6 @@ li{
     display: inline-flex;
     flex-wrap: wrap;
     width: 700px;
-    /* border: solid 2px white; */
-    
     /* centering div */
     position: absolute;
     top: 50%;
@@ -35,7 +28,6 @@ li{
     margin-right: -50%;
     transform: translate(-50%, -50%);
 }
-
 .main_container > *{ /* All elements */
     width: 120px;
     height: 120px;
@@ -127,5 +119,4 @@ li{
 .box_sixteen{
     background-color: violet;
 }
-
 /* End of coloring the grid elements */
