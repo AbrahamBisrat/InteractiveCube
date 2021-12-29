@@ -58,7 +58,6 @@ ul{
 }
 li{
     display: inline;
-    /* height: 300px; */
     background-color: lightblue;
 }
 
@@ -121,4 +120,5 @@ li{
 .main_container .piece p{
     width: 20px;
     text-align: center;
+    visibility: hidden;
 }
