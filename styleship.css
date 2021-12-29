@@ -67,7 +67,14 @@ li{
     display: inline-flex;
     flex-wrap: wrap;
     width: 700px;
-    margin-left: 110px;
+    /* border: solid 2px white; */
+    
+    /* centering div */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 }
 
 .main_container > *{ /* All elements */
