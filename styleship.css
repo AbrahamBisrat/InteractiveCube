@@ -67,7 +67,7 @@ li{
     display: inline-flex;
     flex-wrap: wrap;
     width: 500px;
-    /* position: relative; */
+    margin-left: 200px;
 }
 
 .main_container > *{
