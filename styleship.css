@@ -5,6 +5,7 @@
 body{
     border: 0px;
     margin: 10px;
+    background-color: rgb(34, 40, 46);
 }
 html{
     border: 0px;
@@ -65,16 +66,17 @@ li{
     padding: 20px;
     display: inline-flex;
     flex-wrap: wrap;
-    width: 500px;
-    margin-left: 200px;
+    width: 700px;
+    margin-left: 110px;
 }
 
-.main_container > *{
-    width: 100px;
-    height: 100px;
+.main_container > *{ /* All elements */
+    width: 120px;
+    height: 120px;
     background-color: lightblue;
-    margin: 2px; 
-    border-radius: 10px;  
+    margin: 5px; 
+    border-radius: 10px; 
+    box-shadow: 1px 2px 50px; 
 }
 .box_six,
 .box_eleven{
@@ -122,3 +124,42 @@ li{
     text-align: center;
     visibility: hidden;
 }
+/* Start of coloring the grid elements */
+.box_one{
+    background-color: cadetblue;
+}
+.box_two{
+    background-color: rgb(75, 81, 133);
+}
+.box_three{
+    background-color: yellow;
+}
+.box_four{
+    background-color: aqua;
+}
+.box_five{
+    background-color: brown;
+}
+.box_eight{
+    background-color: bisque;
+}
+.box_nine{
+    background-color: coral;
+}
+.box_twelve{
+    background-color: cornflowerblue;
+}
+.box_thirteen{
+    background-color: cornflowerblue;
+}
+.box_fourteen{
+    background-color: aquamarine;
+}
+.box_fifteen{
+    background-color: greenyellow;
+}
+.box_sixteen{
+    background-color: violet;
+}
+
+/* End of coloring the grid elements */
