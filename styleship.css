@@ -2,11 +2,16 @@ body{
     border: 0px;
     margin: 0px;
     background-color: rgb(34, 40, 46);
-    /* opacity: 0.8; */
+    /* opacity: 0.8; */   
+    height: 100vh;
+    box-shadow: inset 0px 0px 40px 30px rgba(19, 22, 26, 0.781);
 }
 html{
     border: 0px;
     margin: 0px;
+    width: auto;
+    height: auto;
+    /* border: 10px double red; */
 }
 ul{
     padding: 20px;
@@ -49,7 +54,7 @@ li{
     50%{left: 5px}
     75%{left: -5px;}
     100%{left: 0px}
-    from{background-color: black;}
+    from{background-color: rgba(0, 0, 0, 0.698);}
     to{background-color: yellow;}
 }
 @keyframes colorFollowerAnime {
