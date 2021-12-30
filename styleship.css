@@ -38,7 +38,6 @@ li{
     box-shadow: 1px 2px 50px; 
 }
 .main_container .piece:hover{
-    background-color: green;
     position: relative;
     animation-name: buttonMovenmentAnime;
     animation-duration: .5s;
