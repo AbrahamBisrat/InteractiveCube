@@ -5,6 +5,7 @@ body{
     /* opacity: 0.8; */   
     height: 100vh;
     box-shadow: inset 0px 0px 40px 30px rgba(19, 22, 26, 0.781);
+    /* box-shadow: inset 0px 0px 0px 100px rgba(26, 20, 19, 0.781); */
 }
 html{
     border: 0px;
