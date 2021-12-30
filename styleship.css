@@ -49,7 +49,7 @@ li{
     50%{left: 5px}
     75%{left: -5px;}
     100%{left: 0px}
-    from{background-color: red;}
+    from{background-color: black;}
     to{background-color: yellow;}
 }
 @keyframes colorFollowerAnime {
