@@ -9,7 +9,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px double white;
 }
 html{
     border: 0px;
@@ -33,15 +32,7 @@ li{
     flex-wrap: wrap;
     width: 700px;
     height: 660px;
-    border: 3px double white;
     justify-content: center;
-    /* centering div */
-    /* position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%); */
-    /* margin: 0px auto; */
 }
 .main_container > *{ /* All elements */
     width: 120px;
